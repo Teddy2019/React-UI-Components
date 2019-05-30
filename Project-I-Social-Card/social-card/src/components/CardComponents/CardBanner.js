@@ -3,7 +3,7 @@ import './Card.css';
 
 function Banner(){
     return (
-      <img src='Assets/ReactImg.png' alt='react image'></img>
+      <img src='Assets/ReactImg.png' alt='react image' className='Banner'></img>
     )
 };
 
