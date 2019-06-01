@@ -12,3 +12,28 @@
     border: 1px solid black;
     background: red;
 }
+
+.ActionB {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
+.Number {
+    width: 28.5%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
+.Operator {
+    width: 99%;
+    text-align: center;
+    background: red;
+    border: 1px solid black;
+    padding: 1.8%;
+    font-size: 2rem;
+}
