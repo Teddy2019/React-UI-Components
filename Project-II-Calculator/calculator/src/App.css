@@ -2,6 +2,7 @@
     border: 1.4px solid blue;
     width: 30%;
     display: flex;
+    flex-wrap: wrap;
     margin-left: 30%;
     margin-top: 5%;
 }
