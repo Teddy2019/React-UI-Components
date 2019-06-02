@@ -1,9 +1,9 @@
 import React from 'react';
 import './Button.css';
 
-function ActionB(){
+function ActionB(props){
     return (<div className='ActionB'>
-        clear
+        {props.Action}
     </div>)
 }
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-function Number(){
+function Number(props){
    return (
-   <div className='Number'>0
-
+   <div className='Number'>
+      {props.CalNumber}
    </div>
    ) 
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import './Button.css'
 
-function Operator(){
+function Operator(props){
     return (
-        <div className='Operator'> + </div>
+        <div className='Operator'> {props.mathsOperator} </div>
     )
 }
 
