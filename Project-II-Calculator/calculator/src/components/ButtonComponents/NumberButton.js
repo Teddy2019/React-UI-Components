@@ -3,7 +3,7 @@ import './Button.css';
 
 function Number(props){
    return (
-   <div className='Number'>
+   <div className={props.CalNumberStyl}>
       {props.CalNumber}
    </div>
    ) 

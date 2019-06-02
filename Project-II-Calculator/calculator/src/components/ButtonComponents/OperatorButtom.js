@@ -3,7 +3,7 @@ import './Button.css'
 
 function Operator(props){
     return (
-        <div className='Operator'> {props.mathsOperator} </div>
+        <div className={props.mathsOperatorStyle}> {props.mathsOperator} </div>
     )
 }
 

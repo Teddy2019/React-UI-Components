@@ -10,7 +10,7 @@ function ButtonHolder1(){
         <div className='ButtonHolder1'>
           <ActionB Action={['clear']} />
           {CalNumbers.map(function(item){
-          return <Number CalNumber={item} />})}
+          return <Number CalNumber={item} CalNumberStyl={'Number'} />})}
           <ActionB Action={0} />
         </div>
     )
