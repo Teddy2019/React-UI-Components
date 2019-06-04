@@ -1,0 +1,13 @@
+
+.FooterContainer {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 9%;
+    margin-top: 2%;
+}
+
+.Footer {
+    height: 30px;
+}

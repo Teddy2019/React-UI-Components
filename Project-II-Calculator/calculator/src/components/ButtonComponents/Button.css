@@ -1,0 +1,38 @@
+.ButtonHolder1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 72%;
+    border: 1px solid black;
+}
+
+.ButtonHolder2 {
+    display: flex;
+    flex-direction: column;
+    width: 26.9%;
+    border: 1px solid black;
+}
+
+.ActionB {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
+.Number {
+    width: 28.61%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
+.Operator {
+    width: 96%;
+    text-align: center;
+    background: red;
+    border: 1px solid black;
+    padding: 1.8%;
+    font-size: 2rem;
+}

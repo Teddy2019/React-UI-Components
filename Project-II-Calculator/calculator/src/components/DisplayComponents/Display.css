@@ -1,0 +1,9 @@
+
+.DisplayComp {
+    background: black;
+    width: 100%;
+    color: white;
+    padding: 2%;
+    text-align: end;
+    font-size: 2rem;
+}

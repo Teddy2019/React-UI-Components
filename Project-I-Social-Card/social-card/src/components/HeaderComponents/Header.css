@@ -1,1 +1,18 @@
 /* All styles for your header Components live here */
+
+.Header {
+    display: flex;
+    width: 98%;
+    flex-direction: row;
+    margin-right: 2%;
+}
+
+.Img {
+    height: 75px;
+    border-radius: 50%;
+    margin: 1.8%;
+}
+
+samp {
+    color: rgb(170, 166, 166);
+}
