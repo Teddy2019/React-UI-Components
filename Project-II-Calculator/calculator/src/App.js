@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import DisplayComp from './components/DisplayComponents/CalculatorDisplay'
 import ButtonHolder1 from './components/ButtonComponents/ButtonHolder1'
