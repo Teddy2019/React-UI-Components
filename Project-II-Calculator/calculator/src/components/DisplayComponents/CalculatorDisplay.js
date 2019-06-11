@@ -1,10 +1,10 @@
 import React from 'react';
 import './Display.css';
 
-function DisplayComp() {
+function DisplayComp(props) {
     return (
         <div className='DisplayComp'>
-            0
+            {props.total}
         </div>
     )
 }

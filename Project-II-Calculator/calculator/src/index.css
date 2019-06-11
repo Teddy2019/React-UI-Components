@@ -3,3 +3,71 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+
+/* //calculetor css */
+.calc-row {
+  display: flex;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  height: 50px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: #ececec;
+}
+.button:last-child {
+  border-right: 1px solid black;
+}
+.box .button {
+  width: 50px;
+  box-sizing: border-box;
+}
+.screen .button {
+  border-top: 1px solid black;
+  box-sizing: border-box;
+  width: 200px;
+  justify-content: flex-end;
+  padding-right: 10px;
+  background-color: white;
+}
+.button {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+}
+.button.num {
+  background-color: white;
+}
+
+.button:hover {
+  background-color: lightgrey;
+}
+
+.error-box {
+  display: none;
+  margin: 10px 0;
+  padding: 10px;
+  border: darkred solid 1px;
+  width: 250px;
+  background-color: pink;
+  font-weight: 600;
+  color: darkred;
+}
+
+.to-do {
+  margin: 10px 0;
+  padding: 10px;
+  border: #000 solid 1px;
+  width: 250px;
+  background-color: #c2b280;
+  font-weight: 600;
+  color: #000;
+}

@@ -3,7 +3,9 @@ import './Button.css'
 
 function Operator(props){
     return (
-        <div className={props.mathsOperatorStyle}> {props.mathsOperator} </div>
+        <div className={props.mathsOperatorStyle} onClick={()=>props.handeltakeNumValue(props.mathsOperator)}>
+             {props.mathsOperator} 
+        </div>
     )
 }
 
